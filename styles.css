@@ -274,6 +274,7 @@ img{
 .home__img{
     width: 300px;
     justify-self: center;
+    border-radius: 300px;
 }
 
 /*============= BUTTONS =========*/
@@ -334,7 +335,7 @@ img{
 }  
 
 /*============== MENU ============*/
-.menu__container{
+/* .menu__container{
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
 }
@@ -379,10 +380,10 @@ img{
     display: flex;
     padding: .625rem .813rem;
     border-radius: .5rem 0 .5rem 0;
-}
+} */
 
 /*============== APP ============*/
-.app__data{
+/* .app__data{
     text-align: center;
 }
   
@@ -402,7 +403,7 @@ img{
 .app__img{
     width: 230px;
     justify-self: center;
-}
+} */
 
 /*============== CONTACT ============*/
 .contact__container{
@@ -411,6 +412,7 @@ img{
   
 .contact__description{
     margin-bottom: var(--mb-3);
+    text-align: center;
 }
 
 /*============== FOOTER ============*/
