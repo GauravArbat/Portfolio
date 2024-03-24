@@ -260,6 +260,13 @@ img{
     color: var(--first-color);
     margin-bottom: var(--mb-1);
 }
+#element{
+    font-size: var(--biggest-font-size);
+    color:var(--title-color) ;
+    margin-bottom: var(--mb-4);
+    font-family:cursive;
+
+}
   
 .home__subtitle{
     font-size: var(--h1-font-size);
@@ -416,11 +423,19 @@ img{
     .contact__button{
       justify-self: center;
     }
+    .services_description{
+        height: 20px;
+        width: 200px;
+    }
   }
   
   @media screen and (min-width: 768px){
     body{
       margin: 0;
+    }
+    .services_description{
+        height: 20px;
+        width: 250px;
     }
   
     .section{
@@ -472,6 +487,7 @@ img{
     }
   }
   
+  
   @media screen and (min-width: 960px){
     .bd-container{
       margin-left: auto;
@@ -487,6 +503,7 @@ img{
     .app__container{
       column-gap: 7rem;
     }
+   
   }
   
   /* For tall screens on mobiles y desktop*/
